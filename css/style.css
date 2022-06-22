@@ -1,0 +1,251 @@
+body {
+  /*background-color: lightgray;*/
+}
+
+h1 {
+  color: blue;
+  text-align: center;
+  background-color: yellow;
+  border: 5px solid green;
+}
+
+#p1{
+ 
+  font-size: 20px;
+  text-align: center;
+  color: green;
+}
+#p2{
+ 
+  font-size: 20px;
+  text-align: center;
+  color: red;
+}
+#p3{
+ 
+  font-size: 20px;
+  text-align: center;
+  color: blue;
+}
+summary{
+	font-family: fantasy;
+	font-style: bold;
+}
+
+
+#rgb{
+	background-color: rgb(255, 99, 71);
+}
+
+#hex{
+	background-color:#ee82ee ;
+}
+
+#hsl{
+	background-color: hsl(39, 100%, 50%) ;
+}
+
+#rgba{
+	background-color: rgba(255, 99, 71, 0.5);
+}
+.color{
+	background-color: lightskyblue;
+}
+
+.image{
+	background-image: url(https://images.pexels.com/photos/1939485/pexels-photo-1939485.jpeg?);
+}
+
+.image1{
+	background-image: url(../images/flower.png);
+	background-repeat: repeat-x;
+}#pera{
+	font-size: 20px;
+}
+
+.attachment{
+	background-image: url(../images/flower1.png);
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: left-bottom;
+	
+}
+.short{
+	background: #Dabd9a url(../images/sky.png) no-repeat fixed left;
+}
+
+p.dotted{
+	border-style: dotted;
+	border-width: thin;
+	border-color: darkred;
+}
+p.dashed{
+	border-style: dashed;
+	border-width: thick;
+	border-color: greenyellow;
+}
+p.solid{
+	border-style: solid;
+	border-width: 2px;
+	border-color: deepskyblue;
+	border-radius: 5px;
+}
+p.double{
+	border-style: double;
+	border-width: medium;
+	border-color: papayawhip;
+}
+p.groove{
+	border-style: groove;
+	border-width: 5px;
+	border-color: tomato;
+}
+p.ridge{
+	border-style: ridge;
+	border-color: olive;
+}
+p.inset{
+	border-style: inset;
+	border-color: orangered;
+}
+p.outset{
+	border-style: outset;
+	border-color: purple;
+}
+p.none{
+	border-style: none;
+}
+p.hidden{
+	border-style: hidden;
+}
+p.mix{
+	border-style: dotted dashed solid double;
+	border-color: yellow;
+}
+p.short_b{
+	border: 3px solid blue;
+}
+.model{
+	background-color: skyblue;
+	width: 200;
+	border: 10px solid red;
+	margin: 25px;
+	padding: 30px;
+
+}
+p.outline{
+	margin: 20px;
+	outline-color: green;
+	outline-width: 5px;
+	outline-style: solid;
+	outline-offset: 10px;
+	outline: 5px solid green;
+	
+}
+p.text{
+	color: white;
+	text-align: center;
+	text-decoration: underline;
+	text-transform: capitalize;
+	text-indent: 20px ;
+	text-shadow: 2px 2px green;
+}
+h3.font1{
+	font-family: serif;
+	font-size: 30px;
+	font-variant: small-caps;
+	font-style: italic bold;
+}
+
+p.font{
+	font-family: monospace;
+	font-size: 20px;
+	font-style: normal;
+	font-weight: 200 ;
+}
+
+a.link{
+	background-color: skyblue;
+	color: red;
+	border: 3px solid green;
+	margin: 5px;
+	padding: 5px 10px;
+	display: inline-block;
+
+}
+a.hover{
+	background-color: yellow;
+}
+a.active{
+	background-color: deeppink;
+}
+
+ul.a {
+  list-style-type: circle;
+}
+
+ul.b {
+  list-style-type: square;
+}
+
+ol.c {
+  list-style-type: upper-roman;
+}
+
+ol.d {
+  list-style-type: lower-alpha;
+}
+table, th, td{
+	margin-top: 2px;
+	border: 1px solid green;
+	width: 20%;
+	height: 20px;
+}	
+th,td{
+	text-align: center;
+	padding: 5px;
+
+}
+.header{
+	min-height: 100px;
+	background-color: lightgreen;
+}
+.warpper{
+overflow: hidden;
+}
+.box{
+	min-height: 150px;
+	width: 33.33%;
+	float: left;
+
+}
+.pink{
+background-color: pink;
+}
+.gray{
+background-color: gray;
+}
+.brown{
+	background-color: brown;
+}
+.footer{
+	min-height: 100px;
+	background-color: orangered;
+}
+#block{
+	display: block;
+}
+#inline{
+	display: inline;
+}
+#inline-block{
+	display: inline-block;
+}
+.align{
+	font-size: 16px;
+	font-family:cursive;
+	font-style: italic;
+	padding: 5px;
+	text-align: center;
+	clear: right;
+}
